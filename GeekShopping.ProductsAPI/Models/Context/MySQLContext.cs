@@ -2,7 +2,7 @@
 
 namespace GeekShopping.ProductsAPI.Models.Context;
 
-public class MySQLContext :DbContext
+public class MySQLContext : DbContext
 {
     public MySQLContext() {}
 
