@@ -12,6 +12,7 @@ public class MappingConfig
             config.CreateMap<Product, ProductVO>();
             config.CreateMap<ProductVO, Product>(); });
         return mapping;
+
         //return new(cfg =>
         //{
         //    cfg.CreateMap<Product, ProductVO>()
